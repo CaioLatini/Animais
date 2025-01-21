@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'titulo'; /* Nome que você dará à fonte */
+    src: url('assets/Daily Bubble.ttf') format('woff2'), /* Caminho para o arquivo da fonte */
+         url('assets/Daily Bubble.ttf'); /* Formatos alternativos */
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header {
+    width: 100%;
+    background-color: #fff;
+    padding: 2px;
+    text-align: center; /* Centraliza o título no topo */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Dá uma sombra suave no topo */
+    font-family: 'titulo';
+    font-size: 45px;
+}
+
+footer {
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    text-align: right; /* Centraliza o título no topo */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Dá uma sombra suave no topo */
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas de tamanho igual */
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px; /* Limita a largura máxima do conteúdo */
+}
+
+section {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+    display: inline-flex; /* Permite que o título e o ícone fiquem na mesma linha */
+    align-items: center; /* Alinha o ícone verticalmente com o texto */
+}
+
+h2 i {
+    margin-left: 10px; /* Dá um espaço entre o título e o ícone */
+    cursor: pointer; /* Mostra o cursor de clique quando o ícone estiver sobre ele */
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 10px;
+    background-color: #eaeaea;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+p {
+    font-size: 1em;
+    color: #666;
+    margin: 0;
+}
+
+#videoBanner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.video-container {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+}
+
+#animalVideo {
+    width: 100%;
+    height: auto;
+}
+
+#closeBanner {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#videoBanner.hidden {
+    display: none;
+}
