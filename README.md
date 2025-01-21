@@ -1,7 +1,7 @@
 # 🐾 Explore o Mundo Animal 🐾
 
 ## 🐒 Sobre o Projeto
-Bem-vindo ao nosso site criado especialmente para crianças curiosas que adoram aprender sobre os animais! Aqui é uma aventura cheia de curiosidades, textos simples e ilustrações incríveis. Vamos explorar juntos o reino animal de forma educativa e divertida! 🌍✨
+Bem-vindo ao meu site criado especialmente para crianças curiosas! Aqui é uma aventura cheia de curiosidades, textos simples e ilustrações incríveis. Vamos explorar juntos o reino animal de forma educativa e divertida! 🌍✨
 
 ## 🎯 Objetivo
 Nosso objetivo é instigar a curiosidade da criançada, apresentando brevemente alguns animais. Queremos incentivar a imaginação, o aprendizado e, claro, o amor pela natureza! 🌳💚
@@ -36,5 +36,5 @@ Nosso site é perfeito para:
 - ✨ **Espaço para adicionar novos animais no futuro.**
 
 ---
-**Obrigad@ por visitar nosso site e explorar o mundo dos animais com a gente!** 🐾 **Esperamos que as crianças aprendam muito e se divirtam ainda mais!** 🌈
+**Obrigadao por visitar meu site e explorar o mundo dos animais!** 🐾 **Espero que as crianças aprendam muito e se divirtam ainda mais!** 🌈
 
