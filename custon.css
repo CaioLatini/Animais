@@ -9,6 +9,9 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     margin: 0;
     padding: 0;
     display: flex;
@@ -21,17 +24,15 @@ header {
     background-color: #fff;
     padding: 2px;
     text-align: center; /* Centraliza o título no topo */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Dá uma sombra suave no topo */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1); /* Dá uma sombra suave no topo */
     font-family: 'titulo';
     font-size: 45px;
 }
 
 footer {
     width: 100%;
-    background-color: #fff;
     padding: 20px;
     text-align: right; /* Centraliza o título no topo */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Dá uma sombra suave no topo */
 }
 
 main {
